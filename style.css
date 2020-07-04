@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&family=PT+Serif&family=Poppins&display=swap");
+
+img {
+  padding: 1rem 2.5vw;
+}
+
+.row div:nth-child(2),
+.row div:nth-child(5) {
+  margin-top: 7.5vh;
+}
+
+.mtp-header {
+  font-family: "PT Serif";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+  color: #000000;
+  padding-left: 3vw;
+}
+
+.mtp-about {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.mtp-about .heading {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.mtp-about .content {
+  font-weight: normal;
+}
+
+.name {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  padding-left: 3vw;
+}
+
+.description {
+  font-family: PT Serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-transform: uppercase;
+  width: fit-content;
+  float: right;
+  margin-bottom: 0;
+  transform: translateX(40%) translateY(475%) rotate(90deg);
+}
+
+@media only screen and (max-width: 767px) {
+  .mtp-header {
+    padding-left: 0;
+  }
+
+  .name {
+    font-size: 14px;
+    line-height: 21px;
+  }
+
+  .description {
+    font-size: 10px;
+    line-height: 13px;
+    transform: translateX(50%) translateY(500%) rotate(90deg);
+  }
+
+  .row div:nth-child(5) {
+    margin-top: initial;
+  }
+
+  .row div:nth-child(even) {
+    margin-top: 7.5vh;
+  }
+}
+
+.mtp-footer {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  color: #a9a9a9;
+}
